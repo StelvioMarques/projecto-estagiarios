@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+  background-color: rgb(17, 56, 87);
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.grupo-links {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.grupo-links:hover {
+  color: rgb(52, 100, 143);
+  transition: 0.5s;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 8px;
+}
+
+.seccoes {
+  background-color: rgb(228, 228, 228);
+  height: 100vh;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#sobre {
+  color: rgb(15, 56, 97);
+  background-color: white;
+}
+
+.grupo-paragrafos {
+  color: gray;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.images {
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.container-images {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+  padding: 15px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid rgb(210, 207, 207);
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid orange;
+}
+
+.grupo-inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+textarea{
+  resize: none;
+}
+
+#contacto{
+  display: flex;
+  align-items: center;
+}
